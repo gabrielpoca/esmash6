@@ -10,3 +10,5 @@ insecure
 mquandalle:jade
 http
 perak:codemirror
+accounts-ui
+accounts-password

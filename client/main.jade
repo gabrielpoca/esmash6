@@ -1,7 +1,9 @@
 body
-  h1 ESMASH6
+  +loginButtons
   +Editor
 
 template(name="Editor")
   textarea {{code}}
   button Submit
+  #result Result: {{result}}
+  #logs Logs: {{{logs}}}

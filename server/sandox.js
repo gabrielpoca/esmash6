@@ -4,7 +4,8 @@ Meteor.methods({
 
 function submit(code) {
   options = generateOptions(code);
-  HTTP.call('POST', 'http://0.0.0.0:9002', options, handle);
+
+  return HTTP.call('POST', 'http://0.0.0.0:9002', options);
 }
 
 var generateOptions = function(code) {
